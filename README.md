@@ -22,7 +22,7 @@ docker-compose up -d --build
 
 ---
 
-**##🔒 Auntentication**
+## 🔒 Auntentication
 
 When asked authentication:
 
