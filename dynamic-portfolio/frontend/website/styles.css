@@ -1,0 +1,69 @@
+body {
+  background-color: #0d0d0d;
+  color: #00ffcc;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 40px;
+}
+
+.terminal {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ffcc;
+  background-color: #1a1a1a;
+  overflow: hidden;
+}
+
+.terminal-header {
+  background-color: #262626;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #00ffcc;
+}
+
+.terminal-header .dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.red { background-color: #ff3b47; }
+.yellow { background-color: #ffcc00; }
+.green { background-color: #00d742; }
+
+.title {
+  margin-left: auto;
+  color: #ccc;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.terminal-body {
+  padding: 20px;
+}
+
+.cmd {
+  color: #00ffcc;
+  font-weight: bold;
+  margin: 10px 0 2px;
+}
+
+.output {
+  margin-left: 20px;
+  color: #b3ffec;
+}
+
+.output.list li {
+  list-style: none;
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 2px solid #00ffcc;
+}
+
+.folder {
+  color: #00bfff;
+}
