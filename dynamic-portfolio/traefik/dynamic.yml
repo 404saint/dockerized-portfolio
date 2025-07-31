@@ -1,0 +1,12 @@
+http:
+  middlewares:
+    auth:
+      basicAuth:
+        users:
+          - "tesla:$2y$05$llzUgxXV1ZG7.BH5E29Iq.yBP9m9EhTd.oAvsZu31/14ErAZ7LVPa"
+
+    apikey:
+      redirectRegex:
+        regex: "^/admin$"
+        replacement: "/"
+        permanent: false
