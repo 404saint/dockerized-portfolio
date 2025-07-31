@@ -1,0 +1,7 @@
+FROM postgres:15
+
+ENV POSTGRES_USER=tesla
+ENV POSTGRES_PASSWORD=h4cktheplanet
+ENV POSTGRES_DB=portfolio
+
+EXPOSE 5432
