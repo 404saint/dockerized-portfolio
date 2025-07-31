@@ -15,7 +15,7 @@ Includes:
 Clone the repo and run:
 
 ```bash
-git clone https://github.com/404saint/dynamic-portfolio.git
+git clone https://github.com/404saint/dockerized-portfolio.git
 cd dynamic-portfolio
 docker-compose up -d --build
 ```
