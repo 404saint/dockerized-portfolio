@@ -18,3 +18,16 @@ Clone the repo and run:
 git clone https://github.com/404saint/dynamic-portfolio.git
 cd dynamic-portfolio
 docker-compose up -d --build
+```
+
+##🔒 Auntentication
+
+When asked authentication:
+
+Name:
+```bash
+tesla
+```
+Password:
+```bash
+pikachu
