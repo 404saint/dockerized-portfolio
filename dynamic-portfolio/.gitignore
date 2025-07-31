@@ -1,0 +1,16 @@
+# Ignore Traefik ACME (if used)
+traefik/acme.json
+
+# Ignore Docker build caches
+**/__pycache__/
+**/.cache/
+*.log
+
+# Ignore local certs (optional for public repo)
+traefik/certs/selfsigned.key
+traefik/certs/selfsigned.crt
+
+# Ignore IDE / system files
+.vscode/
+.DS_Store
+*.swp
